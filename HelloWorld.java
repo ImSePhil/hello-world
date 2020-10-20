@@ -5,6 +5,10 @@ public class HelloWorld{
 		i = 0;
 	}
 
+	public HelloWorld(String text){
+		System.out.println(text);	
+	}
+
 	public int getI(){
 		return i;
 	}
