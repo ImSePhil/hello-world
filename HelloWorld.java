@@ -13,4 +13,15 @@ public class HelloWorld{
 		i = x;
 	}
 
+
+	private String name;
+	
+	public String getName(){
+		return name;
+	}
+
+	public void setName(String y){
+		name = y;
+	}
+
 }
